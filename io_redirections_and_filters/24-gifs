@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -name "*.gif" -not -type d -printf "%f\n" | rev | cut -d. -f2- | rev | sort -fi
+find . -name "*.gif" -not -type d -printf "%f\n" | rev | cut -d. -f2- | rev | sort -f
